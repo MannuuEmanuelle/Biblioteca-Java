@@ -26,7 +26,6 @@ public class Livro {
     @Column(nullable = false)
     private String editora;
     
-    
     @Column(nullable = false)
     private int anoPublicacao;
 
