@@ -14,26 +14,26 @@ public class Livro {
     @GeneratedValue(strategy = GenerationType.UUID)
     private UUID id;
     
-    @Column(nullable = false, unique = true)
+    @Column(nullable = false)
     private String titulo;
     
     @Column(nullable = false)
     private String autor;
 
-    @Column(nullable = false, unique = true)
+    @Column(nullable = false)
     private String genero;
 
-    @Column(nullable = false, unique = true)
+    @Column(nullable = false)
     private String editora;
     
     
-    @Column(nullable = false, unique = true)
+    @Column(nullable = false)
     private int anoPublicacao;
 
-    @Column(nullable = false, unique = true)
+    @Column(nullable = false)
     private String isbn;
 
-    @Column(nullable = false, unique = true)
+    @Column(nullable = false)
     private String status;
     
     public Livro() {
